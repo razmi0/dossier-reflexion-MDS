@@ -1,0 +1,19 @@
+{
+  "name": "digital-school-motivations",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tw:build": "npx tailwindcss -i ./src/tailwind/input.css -o ./src/tailwind/output.css",
+    "tw:watch": "npx tailwindcss -i ./src/tailwind/input.css -o ./src/tailwind/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.12",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
