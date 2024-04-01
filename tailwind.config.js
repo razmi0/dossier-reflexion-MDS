@@ -5,9 +5,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        card: {
-          500: "rgb(58 66 84 / 0.95)",
-        },
         fore: {
           500: "#28292b",
         },
@@ -18,8 +15,6 @@ export default {
 
       fontSize: {
         "2xl": "1.5rem",
-        title: "12vw",
-        "clamp-title": "clamp(10vw, 12vw, 13vw)",
       },
     },
   },
